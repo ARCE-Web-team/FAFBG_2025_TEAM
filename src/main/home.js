@@ -1,5 +1,5 @@
 import React from 'react';
-//import styles from 'assets/css/main.css'
+import styles from 'assets/css/main.css'
 import Navbar from 'shared/components/Web/navbar';
 import Footer from 'shared/components/Web/footer';
 export default function Home(){
@@ -65,7 +65,7 @@ export default function Home(){
                     <img src="https://www.albany.edu/arce/images/Welcome.jpg" alt="" />
                   </a>
                   <h3>
-                    <a href="explore.html">Explore themed tours </a>
+                    <a href="/explore">Explore themed tours </a>
                   </h3>
                 </div>
               </div>
@@ -223,7 +223,7 @@ export default function Home(){
           <ul>
             <li>
               <a
-                href="explore.html"
+                href="/explore"
                 style={{ WebkitTapHighlightColor: "rgba(0, 0, 0, 0)" }}
               >
                 explore
